@@ -1,5 +1,28 @@
 ## Website Performance Optimization portfolio project
 
+### Installation
+
+Download the repo and copy to your server. The content in the repo is optimized.
+
+### Optimizations
+
+Performed the following optimizations:
+
+* Inlined CSS on portfolio pages to remove render blocking
+* Switched Google webfonts to JavaScript method to remove render blocking
+* Created multiple sizes for pizzeria images (thumbnail, body size) to reduce file size
+* Losslessly compressed all images
+
+### Sites Used
+
+Referenced the following sites and used the following tools:
+
+* [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
+* [ImageOptim](https://imageoptim.com/)
+* 
+
+## Old stuff TODO: Remove when no longer needed to reference
+
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
 
 To get started, check out the repository, inspect the code,
