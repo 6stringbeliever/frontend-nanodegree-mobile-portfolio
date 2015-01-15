@@ -2,7 +2,9 @@
 
 ### Installation
 
-Download the repo and copy to your server. The content in the repo is optimized.
+1. Download the repo.
+1. The optimized content is in the dist directory. The source code is in the dev directory.
+1. Run the default Gulp task to re-minify everything if you make changes to the dev code.
 
 ### Optimizations
 
@@ -12,6 +14,7 @@ Performed the following optimizations:
 * Switched Google webfonts to JavaScript method to remove render blocking
 * Created multiple sizes for pizzeria images (thumbnail, body size) to reduce file size
 * Losslessly compressed all images
+* Used Gulp JS and plugins to minify HTML, CSS, and JavaScript
 
 ### Sites Used
 
@@ -19,7 +22,8 @@ Referenced the following sites and used the following tools:
 
 * [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
 * [ImageOptim](https://imageoptim.com/)
-* 
+* [GulpJS](http://gulpjs.com/)
+* [Getting Started with Gulp](http://travismaynard.com/writing/getting-started-with-gulp)
 
 ## Old stuff TODO: Remove when no longer needed to reference
 

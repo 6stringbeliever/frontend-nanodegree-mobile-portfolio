@@ -1,0 +1,27 @@
+{
+  "name": "performance",
+  "version": "1.0.0",
+  "description": "### Installation",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/6stringbeliever/frontend-nanodegree-mobile-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/6stringbeliever/frontend-nanodegree-mobile-portfolio/issues"
+  },
+  "homepage": "https://github.com/6stringbeliever/frontend-nanodegree-mobile-portfolio",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-jshint": "^1.9.0",
+    "gulp-minify-html": "^0.1.8",
+    "gulp-minify-inline": "^0.1.0",
+    "gulp-uglify": "^1.0.2",
+    "gulp-uglifycss": "^1.0.4"
+  }
+}
