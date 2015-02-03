@@ -455,10 +455,10 @@ var resizePizzas = function(size) {
 
   // Iterates through pizza elements on the page and changes their widths
   function changePizzaSizes(size) {
-    // Do this only once.
+    // Do this only once. The value should be the same for everything.
     var dx = determineDx(pizzacontainer[0], size);
+    var newwidth = (pizzacontainer[0].offsetWidth + dx) + 'px';
     for (var i = 0; i < pizzacontainer.length; i++) {
-      var newwidth = (pizzacontainer[i].offsetWidth + dx) + 'px';
       pizzacontainer[i].style.width = newwidth;
     }
   }
